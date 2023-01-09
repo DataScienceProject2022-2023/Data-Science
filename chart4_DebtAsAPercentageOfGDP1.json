@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "IMF Credit Lending Outstanding Relative to Global GDP ",
+    "subtitle": "Credit outstanding to all members, Source: IMF and World Bank",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/Data-Science/main/IMF%20Credit%20Lending%20Outstanding%20Relative%20to%20Global%20GDP%20Fix%202022.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "bar", "color": "rgb(0,47,167"},
+  "encoding": {
+    "x": {
+      "field": "Years",
+      "title": "Year",
+      "type": "temporal",
+      "axis": {"grid": false, "ticks": false, "labelAngle": 45}
+    },
+    "y": {
+      "field": "Credit/GDP Ratio",
+      "type": "quantitative",
+      "title": "Debt/GDP (%)",
+      "axis": {"grid": false}
+    },
+    "tooltip": [
+      {
+        "field": "Date",
+        "type": "ordinal",
+        "title": "Time of Year wherein this relationship is present."
+      },
+      {
+        "field": "Credit/GDP Ratio",
+        "type": "quantitative",
+        "title": "% Credit lent compared to World GDP"
+      }
+    ]
+  },
+  "config": {}
+}

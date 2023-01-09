@@ -1,0 +1,135 @@
+@import url('https://fonts.google.com/specimen/East+Sea+Dokdo');
+
+body {
+    background: rgb(173, 120, 77);
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+
+    color: #cacaf3;
+    font-family: 'East Sea Dokdo', cursive;
+font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h3{
+    color: #f1f1f1d5;
+    font-family: 'Pacifico', cursive;
+}
+/*Buttons*/
+.button1{
+    background-color: transparent;
+    border-color: #f5eeeed5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+
+    position: relative;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 150px;
+    margin: 10px 0px;
+
+    font-family: 'East Sea Dokdo', cursive;
+  
+    cursor: pointer;
+    transition: background-color 1s ease-in;
+    font-size: 20px; 
+}
+
+.button1:hover{
+    background-color: grey;
+    border-color: black;
+}
+
+.button2{
+    background-color: transparent;
+    border-color: #f5eeeed5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+
+    position: relative;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 150px;
+    margin: 10px 0px;
+    
+    font-family: 'East Sea Dokdo', cursive;
+   
+    cursor: pointer;
+    transition: background-color 1s ease-in;
+    font-size: 20px; 
+}
+
+.button2:hover{
+    background-color: grey;
+    border-color: black;
+} 
+
+.button3{
+    background-color: transparent;
+    border-color: #f5eeeed5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+
+    position: relative;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 150px;
+    margin: 10px 0px;
+    
+    font-family: 'East Sea Dokdo', cursive;
+
+    cursor: pointer;
+    transition: background-color 1s ease-in;
+    font-size: 20px; 
+}
+
+.button3:hover{
+    background-color: grey;
+    border-color: rgb(247, 243, 243);
+    color: black;
+} 
+
+
+
+  .container:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+ 
+
+  #text {
+    position: static;
+    top: 80px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    padding: 20px;
+    overflow-y: hidden;
+    box-sizing: border-box;
+  }
+
