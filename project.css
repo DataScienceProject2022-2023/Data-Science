@@ -1,0 +1,126 @@
+@import url('https://fonts.google.com/specimen/East+Sea+Dokdo');
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+#header .header {
+	min-height: 8vh;
+	background-color: rgba(31, 30, 30, 0.24);
+	transition: 0.3s ease background-color;
+}
+#header .nav-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	max-width: 1300px;
+	padding: 0 10px;
+}
+.button{
+    align-content: center;
+    flex-flow: center;
+    border-radius: 4px;
+    background-color: rgb(233, 121, 76);
+    border-color: #1b1f1f;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    margin: 10px 0px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    font-size: 20px; 
+  }
+  .button1{
+    align-content: center;
+    flex-flow: center;
+    border-radius: 4px;
+    background-color: rgb(233, 121, 76);
+    border-color: #f5eeeed5;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    margin: 10px 0px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    font-size: 20px; 
+    }
+    .button2{
+      align-content: center;
+      flex-flow: center;
+      border-radius: 4px;
+      background-color: rgb(233, 121, 76);
+      border-color: #f5eeeed5;
+      color:white;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      width: 150px;
+      margin: 10px 0px;
+      font-family: 'Pacifico', cursive;
+      cursor: pointer;
+      transition: background-color 1s ease;
+      font-size: 20px; 
+      }
+
+  
+  .button:hover{
+    background-color: grey;
+    border-color: rgb(247, 243, 243);
+    color: black;}
+
+    #projects .projects {
+        flex-direction: column;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+    
+    #projects .chart-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;;
+        gap: 40px 40px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        border-width: 4px;
+        border-style: solid;
+        border-color: #000000; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        background-color: white; 
+      }
+      
+    #projects .project-info {
+        padding: 30px;
+        flex-basis: 50%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-image: linear-gradient(60deg, #cad9eb 0%, #8eb9e7 100%);
+        color: rgb(11, 11, 11);
+    }
+    #projects .project-info h1 {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    #projects .project-info h2 {
+        font-size: 1.8rem;
+        font-weight: 5000;
+        margin-top: 10px;
+      color: rgb(11, 11, 11);
+    }
+    #projects .project-info p {
+      font-size: 25px;
+        color: rgb(29, 20, 79);
+    }
+    
+  
