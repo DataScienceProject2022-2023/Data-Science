@@ -61,10 +61,10 @@ h3{
 /*Buttons*/
 .button1{
     
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan;
+    box-shadow: 0 0 5px rgb(224, 162, 26),
+    0 0 25px rgb(201, 135, 14);
     background-color: transparent;
-    border-color: #f5eeeed5;
+    border-color: #c75509d5;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -86,31 +86,31 @@ h3{
 }
 
 .button1:hover{
-    box-shadow: 0 0 5px cyan;
-    background-color: rgb(99, 99, 100);
+    box-shadow: 0 0 5px rgb(114, 44, 3);
+    background-color: rgb(71, 71, 78);
     border-color: black;
 }
 
 .button2{
     
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan;
+    box-shadow: 0 0 5px rgb(224, 162, 26),
+    0 0 25px rgb(201, 135, 14);
     background-color: transparent;
-    border-color: #f5eeeed5;
+    border-color: #c75509d5;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     text-align: center;
-
+    row-gap: 50px;
     position: relative;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
     width: 150px;
-    margin: 10px 0px;
     margin-right: 10px;
+
     font-family: 'East Sea Dokdo', cursive;
-   
+  
     cursor: pointer;
     transition: background-color 1s ease-in;
     font-size: 20px; 
@@ -118,44 +118,38 @@ h3{
 }
 
 .button2:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan,0 0 50px cyan,
-    0 0 100px cyan,0 0 200px cyan;
-    background-color: blue;
+    box-shadow: 0 0 5px rgb(114, 44, 3);
+    background-color: rgb(71, 71, 78);
     border-color: black;
 } 
 
 .button3{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan;
+    box-shadow: 0 0 25px rgb(201, 135, 14);
     background-color: transparent;
-    border-color: #f5eeeed5;
+    border-color: #c75509d5;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     text-align: center;
-
+    row-gap: 50px;
     position: relative;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
     width: 150px;
-    margin: 10px 0px;
     margin-right: 10px;
-    font-family: 'East Sea Dokdo', cursive;
 
+    font-family: 'East Sea Dokdo', cursive;
+  
     cursor: pointer;
     transition: background-color 1s ease-in;
     font-size: 20px; 
 }
 
 .button3:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan,0 0 50px cyan,
-    0 0 100px cyan,0 0 200px cyan;
-    background-color: blue;
-    border-color: rgb(247, 243, 243);
-    color: black;
+    box-shadow: 0 0 5px rgb(114, 44, 3);
+    background-color: rgb(71, 71, 78);
+    border-color: black;
 } 
 
 
