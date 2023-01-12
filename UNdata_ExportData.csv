@@ -1,4 +1,4 @@
-Entity,Time,GINI Coefficient
+Entity,Time,GINI Coefficient (%)
 Albania,2019,30.8
 Albania,2018,30.1
 Albania,2017,33.1
@@ -1736,38 +1736,38 @@ United Kingdom,1986,31.9
 United Kingdom,1979,28.4
 United Kingdom,1974,30
 United Kingdom,1969,33.7
-United States,2019,41.5
-United States,2018,41.4
-United States,2017,41.2
-United States,2016,41.1
-United States,2015,41.2
-United States,2014,41.5
-United States,2013,40.7
-United States,2012,40.9
-United States,2011,40.9
-United States,2010,40
-United States,2009,40.6
-United States,2008,40.8
-United States,2007,40.8
-United States,2006,41.4
-United States,2005,41
-United States,2004,40.3
-United States,2003,40.8
-United States,2002,40.4
-United States,2001,40.6
-United States,2000,40.1
-United States,1999,40
-United States,1998,40
-United States,1997,40.5
-United States,1996,40.3
-United States,1995,39.9
-United States,1994,40
-United States,1993,40.4
-United States,1992,38.4
-United States,1991,38
-United States,1986,37.4
-United States,1979,34.5
-United States,1974,35.3
+United States of America,2019,41.5
+United States of America,2018,41.4
+United States of America,2017,41.2
+United States of America,2016,41.1
+United States of America,2015,41.2
+United States of America,2014,41.5
+United States of America,2013,40.7
+United States of America,2012,40.9
+United States of America,2011,40.9
+United States of America,2010,40
+United States of America,2009,40.6
+United States of America,2008,40.8
+United States of America,2007,40.8
+United States of America,2006,41.4
+United States of America,2005,41
+United States of America,2004,40.3
+United States of America,2003,40.8
+United States of America,2002,40.4
+United States of America,2001,40.6
+United States of America,2000,40.1
+United States of America,1999,40
+United States of America,1998,40
+United States of America,1997,40.5
+United States of America,1996,40.3
+United States of America,1995,39.9
+United States of America,1994,40
+United States of America,1993,40.4
+United States of America,1992,38.4
+United States of America,1991,38
+United States of America,1986,37.4
+United States of America,1979,34.5
+United States of America,1974,35.3
 Uruguay,2020,40.2
 Uruguay,2019,39.7
 Uruguay,2018,39.7
