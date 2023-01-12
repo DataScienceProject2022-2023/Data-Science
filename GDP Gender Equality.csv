@@ -1,0 +1,394 @@
+Country,Region,IMF of GDP Estimate,Literacy Rate Gender Gap
+Afghanistan,Asia,20136,
+Albania,Europe,18256,
+Algeria,Africa,187155,
+Andorra,Europe,3302,
+Angola,Africa,124794,
+Antigua and Barbuda,Americas,1692,
+Argentina,Americas,630698,
+Armenia,Asia,17693,
+Aruba,Americas,3499,
+Australia,Oceania,1724787,
+Austria,Europe,468046,
+Azerbaijan,Asia,70066,
+Bahamas,Americas,12693,
+Bahrain,Asia,43544,
+Bangladesh,Asia,460751,
+Barbados,Americas,5788,
+Belarus,Europe,79704,
+Belgium,Europe,589491,
+Belize,Americas,2676,
+Benin,Africa,17547,
+Bhutan,Asia,2707,
+Bolivia,Americas,43431,
+Bosnia and Herzegovina,Europe,23681,
+Botswana,Africa,18005,
+Brazil,Americas,1894708,
+Brunei,Asia,18464,
+Bulgaria,Europe,85008,
+Burkina Faso,Africa,18268,
+Burundi,Africa,3686,
+Cambodia,Asia,28330,
+Cameroon,Africa,44212,
+Canada,Americas,2200352,
+Cape Verde,Africa,2053,
+Central African Republic,Africa,2488,
+Chad,Africa,12945,
+Chile,Americas,310866,
+China,Asia,18321197,
+Colombia,Americas,342919,
+Comoros,Africa,1242,
+Congo,Africa,14486,
+Costa Rica,Americas,68489,
+Croatia,Europe,69380,
+Cyprus,Asia,26705,
+Czech Republic,Europe,295618,
+Denmark,Europe,386724,
+Djibouti,Africa,3725,
+Dominica,Americas,599,
+Dominican Republic,Americas,112417,
+DR Congo,Africa,63909,
+East Timor,Asia,2455,
+Ecuador,Americas,115469,
+Egypt,Africa,469094,
+El Salvador,Americas,31989,
+Equatorial Guinea,Africa,16877,
+Eritrea,Africa,2369,
+Estonia,Europe,39054,
+Eswatini,Africa,4669,
+Ethiopia,Africa,111181,
+Fiji,Oceania,4859,
+Finland,Europe,281411,
+France,Europe,2778090,
+Gabon,Africa,22221,
+Gambia,Africa,2172,
+Georgia,Europe,25172,
+Germany,Europe,4031149,
+Ghana,Africa,75996,
+Greece,Europe,222008,
+Grenada,Americas,1192,
+Guatemala,Americas,91318,
+Guinea,Africa,19745,
+Guinea-Bissau,Africa,1624,
+Guyana,Americas,14839,
+Haiti,Americas,20182,
+Honduras,Americas,30568,
+Hong Kong,Asia,368373,
+Hungary,Europe,184651,
+Iceland,Europe,27702,
+India,Asia,3468566,
+Indonesia,Asia,1289429,
+Iran,Asia,1973738,
+Iraq,Asia,282876,
+Ireland,Europe,519776,
+Israel,Asia,527179,
+Italy,Europe,1996934,
+Ivory Coast,Africa,68630,
+Jamaica,Americas,16104,
+Japan,Asia,4300621,
+Jordan,Asia,48066,
+Kazakhstan,Asia,224338,
+Kenya,Africa,114858,
+Kiribati,Oceania,207,
+Kosovo,Europe,9242,
+Kuwait,Asia,183568,
+Kyrgyzstan,Asia,9750,
+Laos,Asia,16250,
+Latvia,Europe,40588,
+Lebanon,Asia,24494,
+Lesotho,Africa,2507,
+Liberia,Africa,3900,
+Libya,Africa,40836,
+Lithuania,Europe,68031,
+Luxembourg,Europe,82154,
+Macau,Asia,23420,
+Madagascar,Africa,15106,
+Malawi,Africa,11554,
+Malaysia,Asia,434059,
+Maldives,Asia,5900,
+Mali,Africa,18434,
+Malta,Europe,17156,
+Marshall Islands,Oceania,271,
+Mauritania,Africa,10091,
+Mauritius,Africa,11497,
+Mexico,Americas,1424533,
+Micronesia,Oceania,428,
+Moldova,Europe,14048,
+Mongolia,Asia,15720,
+Montenegro,Europe,6127,
+Morocco,Africa,142874,
+Mozambique,Africa,17873,
+Myanmar,Asia,59530,
+Namibia,Africa,12488,
+Nauru,Oceania,134,
+Nepal,Asia,39028,
+Netherlands,Europe,990583,
+New Zealand,Oceania,242700,
+Nicaragua,Americas,15695,
+Niger,Africa,14639,
+Nigeria,Africa,504203,
+North Macedonia,Europe,14101,
+Norway,Europe,504703,
+Oman,Asia,108969,
+Pakistan,Asia,376493,
+Palau,Oceania,226,
+Palestine,Asia,19698,
+Panama,Americas,71085,
+Papua New Guinea,Oceania,31362,
+Paraguay,Americas,41855,
+Peru,Americas,239333,
+Philippines,Asia,401662,
+Poland,Europe,716305,
+Portugal,Europe,255854,
+Puerto Rico,Americas,118677,
+Qatar,Asia,221369,
+Romania,Europe,299885,
+Russia,Europe,2133092,
+Rwanda,Africa,12098,
+São Tomé and Príncipe,Africa,506,
+Saint Kitts and Nevis,Americas,1115,
+Saint Lucia,Americas,1972,
+Saint Vincent and the Grenadines,Americas,948,
+Samoa,Oceania,830,
+San Marino,Europe,1623,
+Saudi Arabia,Asia,1010588,
+Senegal,Africa,27542,
+Serbia,Europe,62721,
+Seychelles,Africa,2005,
+Sierra Leone,Africa,4101,
+Singapore,Asia,423632,
+Slovakia,Europe,112418,
+Slovenia,Europe,62191,
+Solomon Islands,Oceania,1601,
+Somalia,Africa,8416,
+South Africa,Africa,411480,
+South Korea,Asia,1734207,
+South Sudan,Africa,4784,
+Spain,Europe,1389927,
+Sri Lanka,Asia,73739,
+Sudan,Africa,42762,
+Suriname,Americas,3011,
+Sweden,Europe,603922,
+Switzerland,Europe,807418,
+Taiwan,Asia,828659,
+Tajikistan,Asia,9983,
+Tanzania,Africa,76582,
+Thailand,Asia,534758,
+Togo,Africa,8359,
+Tonga,Oceania,501,
+Trinidad and Tobago,Americas,29337,
+Tunisia,Africa,46282,
+Turkey,Asia,853487,
+Turkmenistan,Asia,74439,
+Tuvalu,Oceania,64,
+Uganda,Africa,48352,
+Ukraine,Europe,199719,
+United Arab Emirates,Asia,503913,
+United Kingdom,Europe,3198470,
+United States,Americas,25035164,
+Uruguay,Americas,71161,
+Uzbekistan,Asia,79117,
+Vanuatu,Oceania,984,
+Venezuela,Americas,82145,
+Vietnam,Asia,413808,
+World,World,101560901,
+Yemen,Asia,27594,
+Zambia,Africa,27025,
+Zimbabwe,Africa,38280,
+,,,
+Afghanistan,,,29.50%
+Albania,,,0.70%
+Algeria,,,12.10%
+Andorra,,,0.00%
+Angola,,,21.30%
+Antigua and Barbuda,,,1.00%
+Argentina,,,0.20%
+Armenia,,,0.10%
+Australia,,,
+Austria,,,
+Azerbaijan,,,0.20%
+Bahamas,,,
+Bahrain,,,5.00%
+Bangladesh,,,3.72%
+Barbados,,,0.00%
+Belarus,,,0.00%
+Belgium,,,
+Belize,,,
+Benin,,,22.90%
+Bhutan,,,17.90%
+Bolivia,,,7.90%
+Bosnia and Herzegovina,,,2.00%
+Botswana,,,0.90%
+Brazil,,,0.40%
+Brunei,,,4.70%
+Bulgaria,,,0.60%
+Burkina Faso,,,18.20%
+Burundi,,,15.10%
+Cape Verde,,,9.70%
+Cambodia,,,11.50%
+Cameroon,,,11.00%
+Canada,,,
+Central African Republic,,,23.70%
+Chad,,,17.30%
+Chile,,,0.00%
+China,,,3.30%
+Colombia,,,0.50%
+Comoros,,,11.60%
+Congo,,,11.50%
+DR Congo,,,22.00%
+Costa Rica,,,0.10%
+Ivory Coast,,,6.40%
+Croatia,,,0.80%
+Cuba,,,0.10%
+Cyprus,,,0.80%
+Czech Republic,,,0.00%
+Denmark,,,
+Djibouti,,,
+Dominica,,,
+Dominican Republic,,,0.00%
+Ecuador,,,2.30%
+Egypt,,,11.00%
+El Salvador,,,4.00%
+Equatorial Guinea,,,4.40%
+Eritrea,,,15.50%
+Estonia,,,0.00%
+Ethiopia,,,12.80%
+Fiji,,,0.00%
+Finland,,,
+France,,,
+Gabon,,,2.50%
+Gambia,,,20.20%
+Georgia,,,0.20%
+Germany,,,
+Ghana,,,9.00%
+Greece,,,1.10%
+Grenada,,,0.00%
+Guatemala,,,8.60%
+Guinea,,,26.70%
+Guinea-Bissau,,,23.50%
+Guyana,,,2.60%
+Haiti,,,7.00%
+Honduras,,,0.50%
+Hungary,,,0.10%
+Iceland,,,
+India,,,14.40%
+Indonesia,,,2.80%
+Iran,,,9.60%
+Iraq,,,11.30%
+Ireland,,,
+Israel,,,1.90%
+Italy,,,0.40%
+Jamaica,,,9.10%
+Japan,,,
+Jordan,,,0.80%
+Kazakhstan,,,0.10%
+Kenya,,,6.80%
+Kiribati,,,
+North Korea,,,0.00%
+South Korea,,,
+Kuwait,,,1.70%
+Kyrgyzstan,,,0.20%
+Laos,,,10.60%
+Latvia,,,0.00%
+Lebanon,,,3.60%
+Lesotho,,,18.20%
+Liberia,,,28.60%
+Libya,,,11.10%
+Liechtenstein,,,
+Lithuania,,,0.00%
+Luxembourg,,,
+Macedonia,,,1.50%
+Madagascar,,,3.30%
+Malawi,,,14.60%
+Malaysia,,,2.60%
+Maldives,,,0.80%
+Mali,,,20.50%
+Malta,,,3.00%
+Marshall Islands,,,0.10%
+Mauritania,,,20.30%
+Mauritius,,,4.00%
+Mexico,,,1.60%
+Micronesia,,,
+Moldova,,,0.60%
+Monaco,,,
+Mongolia,,,0.10%
+Montenegro,,,1.20%
+Morocco,,,18.70%
+Mozambique,,,22.30%
+Myanmar,,,6.10%
+Namibia,,,0.20%
+Nauru,,,
+Nepal,,,18.90%
+Netherlands,,,
+New Zealand,,,
+Nicaragua,,,0.40%
+Niger,,,16.90%
+Nigeria,,,18.60%
+Norway,,,
+Oman,,,4.30%
+Pakistan,,,22.80%
+Palau,,,0.50%
+Panama,,,3.40%
+Papua New Guinea,,,2.80%
+Paraguay,,,0.70%
+Peru,,,5.00%
+Philippines,,,1.20%
+Poland,,,0.20%
+Portugal,,,2.30%
+Palestine,,,
+Qatar,,,2.30%
+Romania,,,0.50%
+Russia,,,0.00%
+Rwanda,,,8.20%
+Saint Kitts and Nevis,,,
+Saint Lucia,,,
+Saint Vincent and the Grenadines,,,
+Samoa,,,0.20%
+San Marino,,,0.00%
+São Tomé and Príncipe,,,6.70%
+Saudi Arabia,,,2.60%
+Senegal,,,25.00%
+Serbia,,,0.80%
+Seychelles,,,1.00%
+Sierra Leone,,,11.80%
+Singapore,,,2.80%
+Slovakia,,,
+Slovenia,,,0.00%
+Solomon Islands,,,
+Somalia,,,
+South Africa,,,1.00%
+South Sudan,,,11.40%
+Spain,,,0.80%
+Sri Lanka,,,1.40%
+Sudan,,,9.30%
+Suriname,,,3.40%
+Eswatini,,,0.20%
+Sweden,,,
+Switzerland,,,
+Syria,,,10.70%
+Tajikistan,,,0.10%
+Tanzania,,,10.10%
+Thailand,,,2.80%
+East Timor,,,7.70%
+Togo,,,24.90%
+Tonga,,,0.10%
+Trinidad and Tobago,,,0.50%
+Tunisia,,,15.40%
+Turkey,,,4.70%
+Turkmenistan,,,0.20%
+Tuvalu,,,
+Uganda,,,11.90%
+Ukraine,,,0.10%
+United Arab Emirates,,,1.10%
+United Kingdom,,,
+United States,,,
+Uruguay,,,0.50%
+Uzbekistan,,,0.00%
+Vanuatu,,,1.60%
+Venezuela,,,0.20%
+Vietnam,,,2.40%
+Yemen,,,30.10%
+Zambia,,,7.50%
+Zimbabwe,,,3.90%
+World,,,6.80%
+World,,,6.80%
