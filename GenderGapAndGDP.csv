@@ -1,4 +1,4 @@
-,Country,Region,Literacy Rate Gender Gap,IMF of GDP Estimate
+,Country,Region,Gender Gap,GDP
 0,Afghanistan,Asia,29.50%,20.136
 1,Albania,Europe,0.70%,18.256
 2,Algeria,Africa,12.10%,187.155
@@ -169,7 +169,6 @@
 191,Yemen,Asia,30.10%,27.594
 192,Zambia,Africa,7.50%,27.025
 193,Zimbabwe,Africa,3.90%,38.28
-194,World,World,6.80%,101560.901
 196,Hong Kong,Asia,0.00%,368.373
 197,Kosovo,Europe,0.00%,9.242
 198,Macau,Asia,0.00%,23.42
