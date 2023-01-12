@@ -607,6 +607,7 @@ Finland,2000,27.2
 Finland,1995,23.5
 Finland,1991,22.9
 Finland,1987,22.2
+France,2019,29.2
 France,2018,32.4
 France,2017,31.6
 France,2016,31.9
@@ -655,6 +656,7 @@ Georgia,1999,40.1
 Georgia,1998,41.3
 Georgia,1997,40.7
 Georgia,1996,37.1
+Germany,2019,29.7
 Germany,2018,31.7
 Germany,2017,31.2
 Germany,2016,31.6
@@ -887,6 +889,7 @@ Israel,1997,38.1
 Israel,1992,35.5
 Israel,1986,36.5
 Israel,1979,36.3
+Italy,2019,32.8
 Italy,2018,35.2
 Italy,2017,35.9
 Italy,2016,35.2
@@ -1707,6 +1710,7 @@ Ukraine,1993,28.9
 Ukraine,1992,29.7
 United Arab Emirates,2018,26
 United Arab Emirates,2013,32.5
+United Kingdom,2019,32.5
 United Kingdom,2017,35.1
 United Kingdom,2016,34.8
 United Kingdom,2015,33.2
@@ -1813,14 +1817,14 @@ Vietnam,2004,36.8
 Vietnam,2002,37
 Vietnam,1997,35.4
 Vietnam,1992,35.7
-West Bank and Gaza,2016,33.7
-West Bank and Gaza,2011,34.4
-West Bank and Gaza,2010,35.3
-West Bank and Gaza,2009,34.5
-West Bank and Gaza,2007,35.6
-West Bank and Gaza,2006,34
-West Bank and Gaza,2005,34.7
-West Bank and Gaza,2004,34
+Palestine,2016,33.7
+Palestine,2011,34.4
+Palestine,2010,35.3
+Palestine,2009,34.5
+Palestine,2007,35.6
+Palestine,2006,34
+Palestine,2005,34.7
+Palestine,2004,34
 Yemen,2014,36.7
 Yemen,2005,34.7
 Yemen,1998,35
@@ -1841,3 +1845,25 @@ Canada,2019,30
 Pakistan,2019,30.1
 Mongolia,2019,33.3
 Kazakhstan,2019,28.1
+Sudan,2019,N/A
+South Africa,2019,N/A
+Niger,2019,N/A
+Nigeria,2019,N/A
+Angola,2019,N/A
+Chad,2019,N/A
+Egypt,2019,N/A
+Ivory Coast,2019,N/A
+Sierra Leone,2019,N/A
+Guinea,2019,N/A
+Mali,2019,N/A
+Senegal,2019,N/A
+Cuba,2019,N/A
+Nicaragua,2019,N/A
+Honduras,2019,N/A
+Australia,2019,65.6
+Somalia,2019,N/A
+Ethiopia,,
+Dijibouti,,
+Syria,,
+Jordan,,
+Israel,,
