@@ -1,21 +1,21 @@
-Country,GDP Ranking,Human Development Index
-Qatar,1,0.855
-Luxembourg,2,0.93
-Singapore,3,0.939
-Kuawait,4,0.831
-UAE,5,0.911
-Norway,6,0.961
-Switzerland,7,0.962
-Hong Kong,8,0.952
-United States,9,0.921
-Ireland,10,0.945
-Saudi Arabia,11,0.875
-Netherlands,12,0.941
-Sweden,13,0.947
-Bahrain,14,0.875
-Germany,15,0.942
-Austria,16,0.916
-Australia,17,0.951
-Denmark,18,0.948
-Iceland,19,0.959
-Canada,20,0.936
+Country,GDP Ranking,Human Development Index,Group
+Qatar,1,0.855,Richest
+Luxembourg,2,0.93,Richest
+Singapore,3,0.939,Richest
+Kuawait,4,0.831,Richest
+UAE,5,0.911,Richest
+Norway,6,0.961,Richest
+Switzerland,7,0.962,Richest
+Hong Kong,8,0.952,Richest
+United States,9,0.921,Richest
+Ireland,10,0.945,Richest
+Democratic Republic of Congo,11,0.48,Poorest
+Niger,12,0.394,Poorest
+Malawi,13,0.36,Poorest
+Central African Republic,14,0.397,Poorest
+Sierra Leone,15,0.447,Poorest
+Madagascar,16,0.521,Poorest
+Mozambique,17,0.456,Poorest
+Somalia,18,0.361,Poorest
+South Sudan,19,0.51,Poorest
+Burundi,20,0.433,Poorest
