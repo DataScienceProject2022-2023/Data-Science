@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "https://colab.research.google.com/drive/1s97QzFHTj1-uqhaH1pl4ahKLOgzIroJN#scrollTo=YHLh9q_K8LVq",
+  "title": {
+    "text": "Big Tech : Stocks",
+    "subtitle": [
+      "Price changes of stocks of the Big Tech Companies between present day and 10 years past:",
+      "Source: Yahoo Finance"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/Big4stocks.csv"
+  },
+  "repeat": {
+    "layer": ["AAPL_z_norm", "AMZN_z_norm", "GOOG_z_norm", "MSFT_z_norm"]
+  },
+  "spec": {
+    "height": 300,
+    "width": 300,
+    "mark": {"type": "line", "strokeWidth": 1},
+    "encoding": {
+      "x": {"field": "Date", "type": "temporal"},
+      "y": {
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "title": null
+      },
+      "color": {
+        "datum": {"repeat": "layer"},
+        "scale": {"range": ["#0000FF", "#A020F0", "#FF0000", "#00FF00"]},
+        "legend": "object"
+      }
+    }
+  },
+  "config": {}
+}

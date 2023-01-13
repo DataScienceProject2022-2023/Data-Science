@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Premier League Points",
+    "subtitle": "2022-23 Season as of 05/01/2023",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/premierleaguerankings.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "bar", "color": "#0c3538f5"},
+  "encoding": {
+    "x": {
+      "field": "Team",
+      "type": "nominal",
+      "axis": {"title": null, "grid": false, "ticks": false, "labelAngle": 90}
+    },
+    "y": {
+      "field": "Points",
+      "type": "quantitative",
+      "title": "Points",
+      "axis": {"grid": false}
+    }
+  },
+  "config": {}
+}

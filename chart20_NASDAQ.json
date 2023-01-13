@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "NASDAQ Composite 1980-2008.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/nasdaq-historical-chart%20for%20vega2.csv"
+  },
+    
+  "title": {
+    "text": "NASDAQ Composite Index (1980-2010)",
+    "subtitle": ["Daily Closing Price. Source: NASDAQ", ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black",
+    "subtitleColor": "black"
+  },
+  
+  "mark": "point",
+  "width": 390,
+  "height": 300,
+  "encoding": {
+    "x": {"field": "Date", "type": "temporal", "axis": {"grid": false}},
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "axis": {"grid": false},
+      "title": "NASDAQ Composite (Closing) "
+    },
+    "tooltip": [
+      {"field": "Date", "type": "temporal"},
+      {"field": "Value", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}

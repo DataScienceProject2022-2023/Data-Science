@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Distribution of Global Wealth",
+    "subtitle": [
+      "Date : 2020, Hover over the bars to find in depth data per region. India and China have been split ",
+      "in order to show the population split more clearly",
+      "Source: Visual Capitalist"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "fontSize": 16,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/WealthDistributionByregion.csv",
+    "format": {"type": "csv"}
+  },
+  "height": 500,
+  "width": "container",
+  "mark": {"type": "bar"},
+  "encoding": {
+    "y": {
+      "field": "Region",
+      "type": "nominal",
+      "title": null,
+      "axis": {"grid": false, "labelFontSize": 11},
+      "sort": "-x"
+    },
+    "color": {"field": "Region", "scale": {"scheme": "rainbow"}},
+    "x": {
+      "field": "Total Wealth (US$B)",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "grid": false,
+        "titleColor": "black",
+        "titleFontSize": 13,
+        "titleFontWeight": "normal",
+        "labelFontSize": 11
+      }
+    },
+    "tooltip": [
+      {"field": "Region", "type": "nominal", "title": "Country"},
+      {
+        "field": "Wealth per Adult (US$)",
+        "type": "quantitative",
+        "title": "Wealth per Adult (US$)"
+      },
+      {
+        "field": "Change in Total Wealth (US$B)",
+        "type": "quantitative",
+        "title": "Change in Total Wealth (2020) (USBn$)"
+      },
+      {
+        "field": "Population",
+        "type": "quantitative",
+        "title": "Population (Millions)"
+      }
+    ]
+  },
+  "config": {}
+}

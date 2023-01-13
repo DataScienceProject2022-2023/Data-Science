@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Human Development and Gender Inequality Index",
+    "subtitle": "Source : World Bank and World Health Organisation",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 8,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/HDI%20vs%20Gender%20Equality%20Index.csv"
+  },
+  "height": 320,
+  "width": 320,
+  "layer": [
+    {
+      "mark": {"type": "circle", "color": "orange", "size": 100},
+      "encoding": {
+        "x": {
+          "field": "Human Development Index",
+          "type": "quantitative",
+          "scale": {"domain": [0, 1]},
+          "title": "Human Development Index"
+        },
+        "y": {
+          "field": "Gender Inequality Index",
+          "type": "quantitative",
+          "title": "Gender Inequality Index",
+          "scale": {"domain": [0, 1]}
+        },
+        "tooltip": [
+          {"field": "Country Name", "title": "Country"},
+          {"field": "Human Development Index", "title": "HDI"},
+          {"field": "Gender Inequality Index", "title": "GII"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "red"},
+      "transform": [
+        {
+          "regression": "Gender Inequality Index",
+          "on": "Human Development Index"
+        }
+      ],
+      "encoding": {
+        "x": {"field": "Human Development Index", "type": "quantitative"},
+        "y": {"field": "Gender Inequality Index", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Gender Inequality Index",
+          "on": "Human Development Index",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -10
+      },
+      "encoding": {"text": {"type": "ordinal", "field": "R2"}}
+    }
+  ]
+}

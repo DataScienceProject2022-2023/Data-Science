@@ -1,0 +1,109 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Health Expenditure (% of GDP) vs Life Expectancy (at birth). Methodology : https://colab.research.google.com/drive/1ACpSqxxAukZIPxi6pV-UXxhqAq6UUO0b#scrollTo=XQhvviwPigh5",
+  "title": {
+    "text": "The Relationship between Health Expenditure and Life Expectancy",
+    "subtitle": [
+      "",
+      "Data from UK and Selected Former Colonies (2000 - 2019)",
+      "Source: World Bank"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "darkblue"
+  },
+  "height": 350,
+  "width": 400,
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/combined_data%20(1).csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [{"filter": "datum.date==Year"}],
+  "params": [
+    {
+      "name": "Year",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2019,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "circle", "color": "black", "opacity": 1, "size": 100},
+      "encoding": {
+        "x": {
+          "field": "Health Expenditure",
+          "type": "quantitative",
+          "title": "Health Expenditure (% of GDP)"
+        },
+        "y": {
+          "field": "Life Expectancy",
+          "type": "quantitative",
+          "title": "Life Expectancy (at birth)",
+          "scale": {"domain": [0, 90]}
+        },
+        "color": {
+          "field": "Country",
+          "type": "nominal",
+          "title": "Country:",
+          "scale": {"scheme": "plasma"}
+        },
+        "tooltip": [
+          {"field": "Country", "type": "ordinal", "title": "Country"},
+          {
+            "field": "Life Expectancy",
+            "type": "quantitative",
+            "title": "Life Expectancy (at birth)",
+            "format": ".0f"
+          },
+          {
+            "field": "Health Expenditure",
+            "type": "quantitative",
+            "title": "Health Expenditure (% of GDP)",
+            "format": ".2f"
+          },
+          {"field": "date", "type": "quantitative", "title": "Year"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+      "transform": [
+        {
+          "regression": "Life Expectancy",
+          "on": "Health Expenditure",
+          "extent": [1, 8.75]
+        }
+      ],
+      "encoding": {
+        "x": {"field": "Health Expenditure", "type": "quantitative"},
+        "y": {"field": "Life Expectancy", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Life Expectancy",
+          "on": "Health Expenditure",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -10
+      },
+      "encoding": {"text": {"type": "ordinal", "field": "R2"}}
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "World Bank GDP per Capita data",
+  "title": {
+    "text": "GDP per Capita by Country",
+    "subtitle": "Source: World Bank",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+  },
+  "height": 300,
+  "width": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/WB1.json"
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "scale": {"domain": ["1972", "2021"]},
+      "title": null,
+      "axis": {"grid": false, "labelAngle": 20}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "GDP per Capita (Current US$)",
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "country.value",
+      "type": "nominal",
+      "legend": {"title": "Country:", "orient": "right"},
+      "scale": {"scheme": "viridis"}
+    },
+    "tooltip": [
+      {"field": "country.value", "type": "nominal", "title": "Country"},
+      {"field": "date", "type": "temporal", "title": "Date"},
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "GDP per Capita (Current US$)",
+        "format": "0.4f"
+      }
+    ]
+  },
+  "config": {}
+}

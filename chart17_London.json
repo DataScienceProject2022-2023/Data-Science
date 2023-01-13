@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 300,
+    "title": {
+      "text": "London",
+      "subtitle": ["London by Borough"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/London%20Topo%20%20FINAL.json",
+      "format": {"type": "topojson", "feature": "london_geo"}
+    },
+    "projection": {"type": "mercator"},
+    "mark": {
+      "type": "geoshape",
+      "stroke": "black",
+      "strokeWidth": 0.5,
+      "fill": "lightblue"
+    },
+    "encoding": {
+      "tooltip": [{"field": "id", "type": "nominal", "title": "Boroughs"}]
+    },
+    "config": {}
+  }

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A major issue I encountered during this chart was the severe lack of information on GINI data in most websites worldwide. Even the UNData and WorldBank was lacking a lot of country data per year, I read https://www.brookings.edu/opinions/how-much-do-we-really-know-about-inequality-within-countries-around-the-world/ to understand why this is the case. After doing so, I tried making sure my Data set for 2019 was the most accurate it could be to allow a basepoint for someone to read and reference past dates to, as a result I combined data from multiple sources to allow 2019 to have the most relevant information to allow an observer to reference back on.",
+  "title": {
+    "text": ["GINI Index Value by Country", "Sources between 1985 - 2019"],
+    "subtitle": " Source (UNData) : http://data.un.org/Data.aspx?d=WDI&f=Indicator_Code%3ASI.POV.GINI",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 700,
+  "height": 400,
+  "background": "white",
+  "config": {"style": {"cell": {"stroke": "transparent"}}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/UNdata_ExportData.csv"
+  },
+  "transform": [
+    {
+      "lookup": "Entity",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries-sans-antarctica.json",
+          "format": {"type": "topojson", "feature": "countries1"}
+        },
+        "key": "properties.name",
+        "fields": ["properties", "type", "geometry"]
+      }
+    },
+    {"filter": "datum.Time==year"}
+  ],
+  "params": [
+    {
+      "name": "year",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 1985,
+        "max": 2019,
+        "step": 1,
+        "name": "Select the year:"
+      }
+    }
+  ],
+  "projection": {"type": "equalEarth"},
+  "mark": "geoshape",
+  "encoding": {
+    "color": {"field": "GINI Coefficient (%)", "type": "quantitative"},
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {"field": "GINI Coefficient (%)", "type": "quantitative"}
+    ]
+  }
+}

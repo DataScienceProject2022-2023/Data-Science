@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": "Population Living in Various Poverty Lines",
+    "anchor": "start",
+    "color": "darkblue",
+    "subtitle": [
+      "The Chart shows population living on less than $1.90, $3.20 and $5.50 a day. I have contrasted the countries with the highest GDPs in the world and the lowest, and also put midliers to see the spread in this.",
+      "Source: Wikipedia, World Poverty Clock.",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "subtitleColor": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/WikipediaPoverty.csv"
+  },
+  "width": 500,
+  "height": 350,
+  "repeat": {
+    "layer": [
+      "< 190 Cents (US$) a day",
+      "< 320 Cents (US$) a day",
+      "< 550 Cents (US$) a day"
+    ]
+  },
+  "spec": {
+    "mark": {"type": "bar", "point": false, "color": "skyblue"},
+    "encoding": {
+      "x": {"field": "Country", "title": null, "type": "nominal"},
+      "y": {
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "title": "Population living at Poverty Level(%)",
+        "axis": {"grid": false}
+      },
+      "color": {
+        "datum": {"repeat": "layer"},
+        "title": "Poverty Line:",
+        "scale": {"scheme": "reds"}
+      },
+      "xOffset": {"datum": {"repeat": "layer"}},
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title": "Country"},
+        {
+          "field": "< 190 Cents (US$) a day",
+          "type": "quantitative",
+          "title": "< $1.90 a day (%)"
+        },
+        {
+          "field": "< 320 Cents (US$) a day",
+          "type": "quantitative",
+          "title": "< $3.20 a day (%)"
+        },
+        {
+          "field": "< 550 Cents (US$) a day",
+          "type": "quantitative",
+          "title": "< $5.50 a day (%)"
+        }
+      ]
+    }
+  },
+  "config": {"mark": {"invalid": null}}
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Is there a correlation between the GDP per capita and Literacy Rate. ",
+    "subtitle": [
+      "Source : Wikipedia, Regression line drawn using Python Code. Population in Millions."
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "darkblue"
+  },
+  "height": 390,
+  "width": 630,
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/vs2001911/vs2001911.github.io/main/ProjectGDPandPopandLiteracyRate.csv",
+    "format": {"type": "csv"}
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "color": "blueviolet",
+        "opacity": 1,
+        "size": 100
+      },
+      "encoding": {
+        "x": {
+          "field": "Literacy Rate",
+          "type": "quantitative",
+          "title": "Literacy rate"
+        },
+        "size": {
+          "field": "Population(Mil)",
+          "type": "quantitative",
+          "title": "Population"
+        },
+        "y": {
+          "field": "GDPperCapita",
+          "type": "quantitative",
+          "title": "GDP per capita",
+          "scale": {"domain": [0, 22000]}
+        },
+        "color": {"field": "Region", "type": "nominal", "title": "Region"},
+        "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country"},
+          {
+            "field": "Population(Mil)",
+            "type": "quantitative",
+            "title": "Population (millions)"
+          },
+          {
+            "field": "Literacy Rate",
+            "type": "quantitative",
+            "title": "Literacy Rate",
+            "format": ".2f"
+          },
+          {
+            "field": "GDPperCapita",
+            "type": "quantitative",
+            "title": "GDP per Capita"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "springgreen"},
+      "transform": [
+        {
+          "regression": "GDPperCapita",
+          "on": "Literacy Rate",
+          "extent": [0.35, 1]
+        }
+      ],
+      "encoding": {
+        "x": {"field": "Literacy Rate", "type": "quantitative"},
+        "y": {"field": "GDPperCapita", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {"regression": "GDPperCapita", "on": "Literacy Rate", "params": true},
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -10
+      },
+      "encoding": {"text": {"type": "ordinal", "field": "R2"}}
+    }
+  ]
+}
