@@ -1,0 +1,813 @@
+[
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 62,
+        "sourceid": "2",
+        "sourcename": "World Development Indicators",
+        "lastupdated": "2022-12-22"
+    },
+    [
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2021",
+            "value": 12556.3331200058,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2020",
+            "value": 10408.6697561349,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2019",
+            "value": 10143.8381955585,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2018",
+            "value": 9905.34200388822,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2017",
+            "value": 8816.98690451883,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2016",
+            "value": 8094.36336674652,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2015",
+            "value": 8016.43143498352,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2014",
+            "value": 7636.11660125265,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2013",
+            "value": 7020.33848453658,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2012",
+            "value": 6300.61511825789,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2011",
+            "value": 5614.35213522574,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2010",
+            "value": 4550.4531077571,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2009",
+            "value": 3832.23643246702,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2008",
+            "value": 3468.30460207434,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2007",
+            "value": 2693.97006340526,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2006",
+            "value": 2099.22943460447,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2005",
+            "value": 1753.41782925823,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2004",
+            "value": 1508.66809788266,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2003",
+            "value": 1288.64325183381,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2002",
+            "value": 1148.5082904417,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2001",
+            "value": 1053.10824300452,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2000",
+            "value": 959.372483639691,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1999",
+            "value": 873.28706172579,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1998",
+            "value": 828.580479295681,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1997",
+            "value": 781.744164341053,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1996",
+            "value": 709.413755085039,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1995",
+            "value": 609.656679202484,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1994",
+            "value": 473.492278718042,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1993",
+            "value": 377.389839479958,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1992",
+            "value": 366.460692302073,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1991",
+            "value": 333.142145400184,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1990",
+            "value": 317.884673040928,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1989",
+            "value": 310.8819124049,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1988",
+            "value": 283.537695240524,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1987",
+            "value": 251.811956961329,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1986",
+            "value": 281.928120911563,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1985",
+            "value": 294.45884850496,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1984",
+            "value": 250.713969046988,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1983",
+            "value": 225.431928890812,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1982",
+            "value": 203.334919503464,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1981",
+            "value": 197.071474499102,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1980",
+            "value": 194.804722186836,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1979",
+            "value": 183.983152215978,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1978",
+            "value": 156.396388520044,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1977",
+            "value": 185.422832913673,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1976",
+            "value": 165.40554037242,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1975",
+            "value": 178.341819608096,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1974",
+            "value": 160.140093727686,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1973",
+            "value": 157.090374298657,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "1972",
+            "value": 131.883561243868,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]

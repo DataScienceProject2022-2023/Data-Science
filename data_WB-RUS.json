@@ -1,0 +1,813 @@
+[
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 62,
+        "sourceid": "2",
+        "sourcename": "World Development Indicators",
+        "lastupdated": "2022-12-22"
+    },
+    [
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2021",
+            "value": 12194.77734375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2020",
+            "value": 10169.0869140625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2019",
+            "value": 11536.2509765625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2018",
+            "value": 11287.3603515625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2017",
+            "value": 10720.3330078125,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2016",
+            "value": 8704.8984375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2015",
+            "value": 9313.013671875,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2014",
+            "value": 14095.6484375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2013",
+            "value": 15974.64453125,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2012",
+            "value": 15420.875,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2011",
+            "value": 14311.083984375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2010",
+            "value": 10674.99609375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2009",
+            "value": 8562.8134765625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2008",
+            "value": 11635.2724609375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2007",
+            "value": 9101.2548828125,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2006",
+            "value": 6920.18896484375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2005",
+            "value": 5323.462890625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2004",
+            "value": 4102.36474609375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2003",
+            "value": 2975.12524414063,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2002",
+            "value": 2377.52954101563,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2001",
+            "value": 2100.3525390625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "2000",
+            "value": 1771.59411621094,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1999",
+            "value": 1330.75720214844,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1998",
+            "value": 1834.86181640625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1997",
+            "value": 2737.57202148438,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1996",
+            "value": 2643.92919921875,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1995",
+            "value": 2665.77978515625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1994",
+            "value": 2662.10400390625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1993",
+            "value": 2930.67016601563,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1992",
+            "value": 3098.802734375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1991",
+            "value": 3490.45239257813,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1990",
+            "value": 3492.71020507813,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1989",
+            "value": 3428.76220703125,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1988",
+            "value": 3777.2353515625,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1987",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1986",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1985",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1984",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1983",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1982",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1981",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1980",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1979",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1978",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1977",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1976",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1975",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1974",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1973",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.PCAP.CD",
+                "value": "GDP per capita (current US$)"
+            },
+            "country": {
+                "id": "RU",
+                "value": "Russian Federation"
+            },
+            "countryiso3code": "RUS",
+            "date": "1972",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]
